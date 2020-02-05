@@ -24,7 +24,10 @@ class Listing extends Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.fetchListings}>
+        <form
+          style={{ background: "orange", padding: "10px" }}
+          onSubmit={this.fetchListings}
+        >
           <label>
             Search:
             <input
