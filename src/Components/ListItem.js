@@ -7,10 +7,7 @@ const ListItem = props => {
         {props.item.title}
       </a>
       <p style={{ fontStyle: "italic", fontSize: "12px", color: "dark gray" }}>
-        {props.item.created_at}
-      </p>
-      <p style={{ fontStyle: "italic", fontSize: "12px", color: "dark gray" }}>
-        {props.item.author}
+        {props.item.created_at} | {props.item.author}
       </p>
     </div>
   );
